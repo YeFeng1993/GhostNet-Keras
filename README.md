@@ -24,3 +24,5 @@ Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations�
 	line3: path/to/image3.jpg label(0,1,2,3,4,......)
 	line4: path/to/image4.jpg label(0,1,2,3,4,......)
 	....
+
+    run commmand:python train.py -c config/ghost_config.json
