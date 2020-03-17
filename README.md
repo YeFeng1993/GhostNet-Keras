@@ -1,7 +1,7 @@
 # GhostNet-Keras
 Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations》
 
-1.Environment:
+# 1.Environment:
 
     keras=2.1.5
     tensorflow=1.3.0
@@ -9,12 +9,12 @@ Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations�
     bunch
     opencv
   
-2.train mnist data：
+# 2.Train mnist data：
 
     set "use_mnist_data"=1 from config/ghost_config.json, then run command: 
 	python train.py -c config/ghost_config.json
   
-3.train customer data:
+# 3.Train customer data:
   
     set "use_mnist_data"=0 , "train_list" = path/to/train.txt, "test_list" = path/to/test.txt
     train.txt and test.txt have the following format:
@@ -26,3 +26,6 @@ Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations�
 	....
 
     run commmand:python train.py -c config/ghost_config.json
+    
+# 4.Test
+    run commmand:python infer.py -c config/ghost_config.json
