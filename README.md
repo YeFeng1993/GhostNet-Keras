@@ -4,7 +4,7 @@ Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations�
 # 1.Environment:
 
     keras=2.1.5
-    tensorflow=1.3.0
+    tensorflow=1.4.0
     numpy
     bunch
     opencv
