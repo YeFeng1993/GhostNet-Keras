@@ -1,5 +1,5 @@
 # GhostNet-Keras
-Simple completement 2020 CVPR:《GhostNet：More Features from Cheap Operations》
+Simple implementation 2020 CVPR:《GhostNet：More Features from Cheap Operations》
 
 # 1.Environment:
 
